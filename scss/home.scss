@@ -1,0 +1,58 @@
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+.game-holder{
+        background-color: lavender;
+        width: 700px;
+        height: min-content;
+        margin-bottom: 20px;
+
+        h4{
+            margin: 0 auto;
+            width: fit-content;
+            padding-bottom: 20px;
+        }
+
+        .game-image{
+            width: 600px;
+            margin: 0 auto;
+            height: 400px;
+            background-color: red;
+            
+
+            img{
+                margin: 0 auto;
+                height: 100%;
+                width: 100%;
+            }
+        }
+
+        .brief-rating{
+            padding-top: 20px;
+            width: 100%;
+
+            .brief-des{
+                margin: 0 auto;
+                width: 80%;
+                padding-bottom: 20px;
+            }
+
+            .rating{
+                margin: 0 auto;
+                width: fit-content;
+                padding-bottom: 20px;
+            }
+
+            .release{
+                margin: 0 auto;
+                width: fit-content;
+                padding-bottom: 10px;
+            }
+            
+        }
+
+    }
+}
